@@ -20,13 +20,12 @@ class GameViewController: UIViewController {
     
     var choices = [UIButton]()
     
-    var situations = [Situation]()
+    var plistData: [String: AnyObject] = [:]
     
-    var currentSituation = 0;
+    var currentSituation = "s1";
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        currentSituation = 0;
         
         choices = [choice1, choice2, choice3, choice4]
         
@@ -42,55 +41,72 @@ class GameViewController: UIViewController {
         }
         
         
-        let s = situations[currentSituation];
+        let s = plistData[currentSituation] as! NSArray
         
-        histoire.text = s.text
+        histoire.text = s[0] as? String
         //TODO : set background, image
         
-        for nextPos in s.destination {
-            let intPos = s.destination.index(of: nextPos);
-            
-            choices[intPos!].setTitle(s.destinationText[intPos!], for: .normal);
-            choices[intPos!].isHidden = false;
-            
+        var position = 0;
+        for _ in (s[2] as? NSArray)! {
+            let strings = s[2] as! NSArray;
+            choices[position].setTitle(strings[position] as? String, for: .normal);
+            choices[position].isHidden = false;
+            position += 1;
         }
     }
     
     func loadSituations(){
         
-        let list = [1,2,3]
-        let list2 = ["1","2","3"]
+        var propertyListForamt =  PropertyListSerialization.PropertyListFormat.xml //Format of the Property List.
         
-        let situation = Situation(text: "A que coucou bonjour monsieur patate. comment allez-vus aujourd'hui? Trés bien et vous lol. je m'appelle Thomas le chien allemente t je mange des os de boeuf", destination: list, destinationText: list2);
-        
-        let situation2 = Situation(text: "A", destination: list, destinationText: list2);
-        
-        situations.append(situation);
-        situations.append(situation2);
-        
+        let plistPath: String? = Bundle.main.path(forResource: "Situations", ofType: "plist")! //the path of the data
+        let plistXML = FileManager.default.contents(atPath: plistPath!)!
+        do {//convert the data to a dictionary and handle errors.
+            plistData = try PropertyListSerialization.propertyList(from: plistXML, options: .mutableContainersAndLeaves, format: &propertyListForamt) as! [String:AnyObject]
+            
+        } catch {
+            print("Error reading plist: \(error), format: \(propertyListForamt)")
+        }
+        print(plistData)
     }
     
     
     
     @IBAction func clickChoice1(_ sender: Any) {
-        currentSituation = situations[currentSituation].destination[0]
+        
+        let s = plistData[currentSituation] as! NSArray
+        let nextKeys = s[1] as! NSArray;
+        currentSituation = (nextKeys[0] as? String)!;
+        
         displaySituation()
     }
     
     
     @IBAction func clickChoice2(_ sender: Any) {
-        currentSituation = situations[currentSituation].destination[1]
+        
+        let s = plistData[currentSituation] as! NSArray
+        let nextKeys = s[1] as! NSArray;
+        currentSituation = (nextKeys[0] as? String)!;
+        
         displaySituation()
     }
     
     
     @IBAction func clickChoice3(_ sender: Any) {
-        currentSituation = situations[currentSituation].destination[2]
+        
+        let s = plistData[currentSituation] as! NSArray
+        let nextKeys = s[1] as! NSArray;
+        currentSituation = (nextKeys[0] as? String)!;
+        
         displaySituation()
     }
     
     @IBAction func clickChoice4(_ sender: Any) {
-        currentSituation = situations[currentSituation].destination[3]
+        
+        let s = plistData[currentSituation] as! NSArray
+        let nextKeys = s[1] as! NSArray;
+        currentSituation = (nextKeys[0] as? String)!;
+        
         displaySituation()
     }
 }

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>s1</key>
+	<array>
+		<string>A que coucou bonjour monsieur patate. comment allez-vus aujourd&apos;hui? Trés bien et vous lol. je m&apos;appelle Thomas le chien allemente t je mange des os de boeuf</string>
+		<array>
+			<string>s2</string>
+		</array>
+		<array>
+			<string>Aller au 1</string>
+		</array>
+	</array>
+	<key>s2</key>
+	<array>
+		<string>Situation2, gg</string>
+		<array>
+			<string>s1</string>
+			<string>s1</string>
+		</array>
+		<array>
+			<string>Retour au 1</string>
+			<string>Retour au 1</string>
+		</array>
+	</array>
+</dict>
+</plist>
