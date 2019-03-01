@@ -137,16 +137,32 @@
                                                 <rect key="frame" x="187.66666666666663" y="0.0" width="187.33333333333337" height="367"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A0s-AM-ZDY">
-                                                        <rect key="frame" x="70.666666666666657" y="0.0" width="46" height="122.33333333333333"/>
+                                                        <rect key="frame" x="70.666666666666657" y="0.0" width="46" height="91.666666666666671"/>
                                                         <state key="normal" title="Button"/>
+                                                        <connections>
+                                                            <action selector="clickChoice1:" destination="Iyb-m0-m7Q" eventType="touchUpInside" id="It1-Hq-B2p"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qL3-2b-7bl">
-                                                        <rect key="frame" x="70.666666666666657" y="122.33333333333337" width="46" height="122.33333333333331"/>
+                                                        <rect key="frame" x="70.666666666666657" y="91.666666666666686" width="46" height="92"/>
                                                         <state key="normal" title="Button"/>
+                                                        <connections>
+                                                            <action selector="clickChoice2:" destination="Iyb-m0-m7Q" eventType="touchUpInside" id="1Mk-JL-N4g"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RkO-Tz-iAI">
-                                                        <rect key="frame" x="70.666666666666657" y="244.66666666666666" width="46" height="122.33333333333334"/>
+                                                        <rect key="frame" x="70.666666666666657" y="183.66666666666663" width="46" height="91.666666666666686"/>
                                                         <state key="normal" title="Button"/>
+                                                        <connections>
+                                                            <action selector="clickChoice3:" destination="Iyb-m0-m7Q" eventType="touchUpInside" id="8ep-aG-gsl"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6zP-cL-PUy">
+                                                        <rect key="frame" x="70.666666666666657" y="275.33333333333337" width="46" height="91.666666666666686"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <connections>
+                                                            <action selector="clickChoice4:" destination="Iyb-m0-m7Q" eventType="touchUpInside" id="mgu-Ho-ole"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -167,6 +183,10 @@
                         <viewLayoutGuide key="safeArea" id="CYH-5d-OjI"/>
                     </view>
                     <connections>
+                        <outlet property="choice1" destination="A0s-AM-ZDY" id="je8-3I-FE4"/>
+                        <outlet property="choice2" destination="qL3-2b-7bl" id="ymg-g7-UmT"/>
+                        <outlet property="choice3" destination="RkO-Tz-iAI" id="z49-3U-gRS"/>
+                        <outlet property="choice4" destination="6zP-cL-PUy" id="XeW-Hv-ob5"/>
                         <outlet property="histoire" destination="if2-si-neA" id="ps5-eE-2jG"/>
                     </connections>
                 </viewController>

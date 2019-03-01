@@ -13,8 +13,8 @@ struct Situation {
     var text: String;
     var destination : Array<Int>;
     var destinationText : Array<String>;
-    var backgroud: Int;
-    var image: Int;
+    //var backgroud: Int;
+    //var image: Int;
     
 }
 
