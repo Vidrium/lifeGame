@@ -4,7 +4,7 @@
 <dict>
 	<key>s1</key>
 	<array>
-		<string>Vous vous réveillez dans une prison, vous ne vous souvenais plus de rien. Un garde vous informe que vous serez exécuté demain matin et que c'est donc votre dernier repas. Il vous demande ce que vous prendrez.</string>
+		<string>Vous vous réveillez dans une prison, vous ne vous souvenez plus de rien. Un garde vous informe que vous serez exécuté demain matin et que c'est donc votre dernier repas. Il vous demande ce que vous prendrez.</string>
 		<array>
 			<string>s2</string>
 			<string>s3</string>
@@ -13,7 +13,7 @@
 		<array>
 			<string>du pain</string>
 			<string>du poisson</string>
-			<string>poulet aux amendes</string>
+			<string>poulet aux amandes</string>
 		</array>
 		<array>
 			<string>jour</string>
@@ -57,7 +57,7 @@
 	</array>
 	<key>s4</key>
 	<array>
-		<string>Alors que vous mangez vous vous sentez mal et vous perdez connaissance. Il s'avère que vous êtes allergique aux amendes.</string>
+		<string>Alors que vous mangez vous vous sentez mal et vous perdez connaissance. Il s'avère que vous êtes allergique aux amandes.</string>
 		<array>
 			<string>s6</string>
 		</array>
@@ -74,7 +74,7 @@
 
 	<key>s5</key>
 	<array>
-		<string>Après avoir mangez et digéré se 'copieux' repas que faite vous ?</string>
+		<string>Après avoir mangé et digéré ce 'copieux' repas, que faites-vous ?</string>
 		<array>
 			<string>s7</string>
 			<string>s8</string>
@@ -110,16 +110,16 @@
 
 	<key>s7</key>
 	<array>
-		<string>Vous appelez le garde et il s'approche de la porte. Que faite vous ?</string>
+		<string>Vous appelez le garde et il s'approche de la porte. Que faites-vous ?</string>
 		<array>
 			<string>s12</string>
 			<string>s13</string>
 			<string>s14</string>
 		</array>
 		<array>
-			<string>l'assomer.</string>
-			<string>le provoquez.</string>
-			<string>sympathisez</string>
+			<string>l'assommer.</string>
+			<string>le provoquer.</string>
+			<string>sympathiser</string>
 		</array>
 		<array>
 			<string>jour</string>
@@ -131,14 +131,14 @@
 
 	<key>s8</key>
 	<array>
-		<string>Il fait maintenant nuit noir se serait le moment parfait pour s'évader. Les barreaux ons l'aire fragile d'un coté de la cellule.</string>
+		<string>Il fait maintenant nuit noir ce serait le moment parfait pour s'évader. Les barreaux ont l'air fragile d'un coté de la cellule.</string>
 		<array>
 			<string>s9</string>
 			<string>s10</string>
 		</array>
 		<array>
 			<string>Plier barreaux. </string>
-			<string>Se resigner.</string>
+			<string>Se résigner.</string>
 		</array>
 		<array>
 			<string>nuit</string>
@@ -167,7 +167,7 @@
 
 	<key>s10</key>
 	<array>
-		<string>Vous dormez après avoir trouvé la paix intérieur, et le lendemain matin allez sur l'échafaud l'esprit tranquille.</string>
+		<string>Vous dormez après avoir trouvé la paix intérieure, et le lendemain matin, vous allez sur l'échafaud l'esprit tranquille.</string>
 		<array>
 			<string>s6</string>
 		</array>
@@ -184,13 +184,13 @@
 
 	<key>s11</key>
 	<array>
-		<string>Vous voila en dehors de la cellule, il fait très sombre dans la prisons et vous réfléchissais à comment faire pour vous évader de la prison.</string>
+		<string>Vous voilà en dehors de la cellule, il fait très sombre dans la prison et vous réfléchissez aux moyens de vous évader de la prison.</string>
 		<array>
 			<string>s17</string>
 			<string>s18</string>
 		</array>
 		<array>
-			<string>Piégé. </string>
+			<string>Poser piège. </string>
 			<string>Discret.</string>
 		</array>
 		<array>
@@ -203,7 +203,7 @@
 
 	<key>s12</key>
 	<array>
-		<string>Alors qu'il s'approche vous lancez votre poing dans son visage. Cependant il esquive et après vous avoir insulté s'éloigne et vous laisse seul. </string>
+		<string>Alors qu'il s'approche vous lancez votre poing dans son visage. Cependant il esquive et après vous avoir insulté, s'éloigne et vous laisse seul. </string>
 		<array>
 			<string>s8</string>
 		</array>
@@ -220,14 +220,14 @@
 
 	<key>s13</key>
 	<array>
-		<string>Le garde s'énerve et ouvre la grille pour vous passer à tabacs</string>
+		<string>Le garde s'énerve et ouvre la grille pour vous passer à tabac.</string>
 		<array>
 			<string>s15</string>
 			<string>s16</string>
 		</array>
 		<array>
 			<string>L'attaquer.</string>
-			<string>Se laissez faire.</string>
+			<string>Se laisser faire.</string>
 		</array>
 		<array>
 			<string>jour</string>
@@ -239,7 +239,7 @@
 
 	<key>s14</key>
 	<array>
-		<string>Vous essayez de sympathiser avec le garde mais il n'est pas très coopératif et après quelque minutes de discussion, il s'éloigne et vous laisse seul. </string>
+		<string>Vous essayez de sympathiser avec le garde mais il n'est pas très coopératif et après quelques minutes de discussion, il s'éloigne et vous laisse seul. </string>
 		<array>
 			<string>s8</string>
 		</array>
@@ -256,7 +256,7 @@
 
 	<key>s15</key>
 	<array>
-		<string>Alors qu'il passe la port de la cellule vous vous jetez sur lui et l'assommez. </string>
+		<string>Alors qu'il passe la porte de la cellule, vous vous jetez sur lui et l'assommez. </string>
 		<array>
 			<string>s11</string>
 		</array>
@@ -273,7 +273,7 @@
 
 	<key>s16</key>
 	<array>
-		<string>Vous être roué de coups et l'ors ce que vous reprenez conscience le garde est déjas parti.</string>
+		<string>Vous être roué de coups et lorsque vous reprenez conscience le garde est déjà parti.</string>
 		<array>
 			<string>s8</string>
 		</array>
@@ -290,7 +290,7 @@
 
 	<key>s17</key>
 	<array>
-		<string>Vous décidez de poser un piège et d'attendre le garde du couloir après avoir attiré son attention. Juste après avoir fait du bruit le garde passe la porte et trébuche sur votre corde tendue. Vous profitez de se moment pour l'assommer.</string>
+		<string>Vous décidez de poser un piège et d'attendre le garde du couloir après avoir attiré son attention. Juste après avoir fait du bruit le garde passe la porte et trébuche sur votre corde tendue. Vous profitez de ce moment pour l'assommer.</string>
 		<array>
 			<string>s19</string>
 		</array>
@@ -307,7 +307,7 @@
 
 	<key>s18</key>
 	<array>
-		<string>Vous décidez de passer discrètement dans les couloir jusqu'a la sortie de la prison. Sur le chemin vous apercevez un garde. Vous pourriez le contourner ou le mettre hors d'état de nuire. Que faite vous ?</string>
+		<string>Vous décidez de passer discrètement dans les couloirs jusqu'à la sortie de la prison. Sur le chemin vous apercevez un garde. Vous pourriez le contourner ou le mettre hors d'état de nuire. Que faites-vous ?</string>
 		<array>
 			<string>s20</string>
 			<string>s21</string>
@@ -326,7 +326,7 @@
 
 	<key>s19</key>
 	<array>
-		<string>Vous passez à coté de la salle des gardes ou ils stockent les objet précieux. Allez vous résister à la tentation d'allez y récupérer des objets précieux ?</string>
+		<string>Vous passez à coté de la salle des gardes où ils stockent les objets précieux. Allez-vous résister à la tentation d'aller y récupérer des objets précieux ?</string>
 		<array>
 			<string>s22</string>
 			<string>s23</string>
@@ -345,7 +345,7 @@
 
 	<key>s20</key>
 	<array>
-		<string>Vous observez les rondes du garde. Après quelque rondes vous trouvez un moment ou passez discrètement. Tels un chat vous vous faufilez derrière des caisses et apercevez enfin la sortie.</string>
+		<string>Vous observez les rondes du garde. Après quelques rondes vous trouvez un moment où passer discrètement. Tel un chat vous vous faufilez derrière des caisses et apercevez enfin la sortie.</string>
 		<array>
 			<string>s19</string>
 		</array>
@@ -362,7 +362,7 @@
 
 	<key>s21</key>
 	<array>
-		<string>Vous observez les rondes du garde. Après quelque rondes vous trouvez le moment propice et vous jetez sur le garde.Vous assommez avec un double drop kick et il tombe sur le sol assommé comme une planche. Vous vous approchez enfin de la sortie.</string>
+		<string>Vous observez les rondes du garde. Après quelques rondes vous trouvez le moment propice et vous vous jetez sur le garde. Vous l'assommez avec un double drop kick et il tombe sur le sol comme une planche. Vous vous approchez enfin de la sortie.</string>
 		<array>
 			<string>s19</string>
 		</array>
@@ -379,7 +379,7 @@
 
 	<key>s22</key>
 	<array>
-		<string>Vous n'arrivez pas à résister à la tentation et forcez la porte pour vous trouvez nez à nez avec tous les gardes de la prison. Votre envie de richesse vous passe vite et fuyez vers la sortie. Hélas ils vous rattrape et vous ramène en prison. Vous n'avez plus aucun chance de vous enfuir avant votre exécution</string>
+		<string>Vous n'arrivez pas à résister à la tentation et forcez la porte pour vous trouver nez à nez avec tous les gardes de la prison. Votre envie de richesse vous passe vite et fuyez vers la sortie. Hélas ils vous rattrapent et vous ramènent en prison. Vous n'avez plus aucune chance de vous enfuir avant votre exécution.</string>
 		<array>
 			<string>s6</string>
 		</array>
@@ -396,7 +396,7 @@
 
 	<key>s23</key>
 	<array>
-		<string>Vous résistez à la tentation et passer à coté de la salle. Vous arrivez enfin aux portes de la prison. Elle sont ouverte !! Quel chance !! Vous vous précipitez et vous enfoncer dans la ville.</string>
+		<string>Vous résistez à la tentation et passez à coté de la salle. Vous arrivez enfin aux portes de la prison. Elle sont ouvertes !! Quelle chance !! Vous vous précipitez et vous rentrez dans la ville.</string>
 		<array>
 			<string>s24</string>
 		</array>
