@@ -28,9 +28,12 @@ class GameViewController: UIViewController {
         super.viewDidLoad()
         
         choices = [choice1, choice2, choice3, choice4]
-        
         loadSituations();
         displaySituation();
+        choice1.applyDesign()
+        choice2.applyDesign()
+        choice3.applyDesign()
+        choice4.applyDesign()
     }
     
     
@@ -44,7 +47,7 @@ class GameViewController: UIViewController {
         let s = plistData[currentSituation] as! NSArray
         
         histoire.text = s[0] as? String
-        //TODO : set background, image
+        
         
         var position = 0;
         for _ in (s[2] as? NSArray)! {
@@ -110,3 +113,5 @@ class GameViewController: UIViewController {
         displaySituation()
     }
 }
+
+
