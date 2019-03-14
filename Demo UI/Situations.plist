@@ -4,24 +4,427 @@
 <dict>
 	<key>s1</key>
 	<array>
-		<string>A que coucou bonjour monsieur patate. comment allez-vus aujourd&apos;hui? Trés bien et vous lol. je m&apos;appelle Thomas le chien allemente t je mange des os de boeuf</string>
+		<string>Vous vous réveillez dans une prison, vous ne vous souvenais plus de rien. Un garde vous informe que vous serez exécuté demain matin et que c'est donc votre dernier repas. Il vous demande ce que vous prendrez.</string>
 		<array>
 			<string>s2</string>
+			<string>s3</string>
+			<string>s4</string>
 		</array>
 		<array>
-			<string>Aller au 1</string>
+			<string>du pain</string>
+			<string>du poisson</string>
+			<string>du poulet aux amendes</string>
+		</array>
+		<array>
+			<string>jour</string>
+		</array>
+		<array>
+			<string>narrateur</string>
 		</array>
 	</array>
+
 	<key>s2</key>
 	<array>
-		<string>Situation2, gg</string>
+		<string>Le pain est étonnamment délicieux.</string>
 		<array>
-			<string>s1</string>
+			<string>s5</string>
+		</array>
+		<array>
+			<string>suite</string>
+		</array>
+		<array>
+			<string>jour</string>
+		</array>
+		<array>
+			<string>narrateur</string>
+		</array>
+	</array>
+	<key>s3</key>
+	<array>
+		<string>Le poisson n'est pas bon, le cuisinier de la prison ne doit pas être habitué à en cuisiner.</string>
+		<array>
+			<string>s5</string>
+		</array>
+		<array>
+			<string>suite</string>
+		</array>
+		<array>
+			<string>jour</string>
+		</array>
+		<array>
+			<string>narrateur</string>
+		</array>
+	</array>
+	<key>s4</key>
+	<array>
+		<string>Alors que vous mangez vous vous sentez mal et vous perdez connaissance. Il s'avère que vous êtes allergique aux amendes.</string>
+		<array>
+			<string>s6</string>
+		</array>
+		<array>
+			<string>suite</string>
+		</array>
+		<array>
+			<string>jour</string>
+		</array>
+		<array>
+			<string>narrateur</string>
+		</array>
+	</array>
+
+	<key>s5</key>
+	<array>
+		<string>Après avoir mangez et digéré se 'copieux' repas que faite vous ?</string>
+		<array>
+			<string>s7</string>
+			<string>s8</string>
+		</array>
+		<array>
+			<string>Appeler le garde.</string>
+			<string>Attendre la nuit.</string>
+		</array>
+		<array>
+			<string>jour</string>
+		</array>
+		<array>
+			<string>narrateur</string>
+		</array>
+	</array>
+
+	<key>s6</key>
+	<array>
+		<string>GAME OVER</string>
+		<array>
 			<string>s1</string>
 		</array>
 		<array>
-			<string>Retour au 1</string>
-			<string>Retour au 1</string>
+			<string>recommencer</string>
+		</array>
+		<array>
+			<string>jour</string>
+		</array>
+		<array>
+			<string>narrateur</string>
+		</array>
+	</array>
+
+	<key>s7</key>
+	<array>
+		<string>Vous appelez le garde et il s'approche de la porte. Que faite vous ?</string>
+		<array>
+			<string>s12</string>
+			<string>s13</string>
+			<string>s14</string>
+		</array>
+		<array>
+			<string>Vous essayez de l'assomer.</string>
+			<string>Vous le provoquez.</string>
+			<string>Vous essayez de sympathisez</string>
+		</array>
+		<array>
+			<string>jour</string>
+		</array>
+		<array>
+			<string>garde</string>
+		</array>
+	</array>
+
+	<key>s8</key>
+	<array>
+		<string>Il fait maintenant nuit noir se serait le moment parfait pour s'évader. Les barreaux ons l'aire fragile d'un coté de la cellule.</string>
+		<array>
+			<string>s9</string>
+			<string>s10</string>
+		</array>
+		<array>
+			<string>Plier les barreaux. </string>
+			<string>Se resigner.</string>
+		</array>
+		<array>
+			<string>nuit</string>
+		</array>
+		<array>
+			<string>narrateur</string>
+		</array>
+	</array>
+
+	<key>s9</key>
+	<array>
+		<string>Vous arrivez tant bien que mal à séparer les barreaux.</string>
+		<array>
+			<string>s11</string>
+		</array>
+		<array>
+			<string>Sortir de la cellule.</string>
+		</array>
+		<array>
+			<string>jour</string>
+		</array>
+		<array>
+			<string>narrateur</string>
+		</array>
+	</array>
+
+	<key>s10</key>
+	<array>
+		<string>Vous dormez après avoir trouvé la paix intérieur, et le lendemain matin allez sur l'échafaud l'esprit tranquille.</string>
+		<array>
+			<string>s6</string>
+		</array>
+		<array>
+			<string>Fermer les yeux.</string>
+		</array>
+		<array>
+			<string>nuit</string>
+		</array>
+		<array>
+			<string>narrateur</string>
+		</array>
+	</array>
+
+	<key>s11</key>
+	<array>
+		<string>Vous voila en dehors de la cellule, il fait très sombre dans la prisons et vous réfléchissais à comment faire pour vous évader de la prison.</string>
+		<array>
+			<string>s17</string>
+			<string>s18</string>
+		</array>
+		<array>
+			<string>Piégé. </string>
+			<string>Discret.</string>
+		</array>
+		<array>
+			<string>nuit</string>
+		</array>
+		<array>
+			<string>narrateur</string>
+		</array>
+	</array>
+
+	<key>s12</key>
+	<array>
+		<string>Alors qu'il s'approche vous lancez votre poing dans son visage. Cependant il esquive et après vous avoir insulté s'éloigne et vous laisse seul. </string>
+		<array>
+			<string>s8</string>
+		</array>
+		<array>
+			<string>Attendre le soir.</string>
+		</array>
+		<array>
+			<string>jour</string>
+		</array>
+		<array>
+			<string>énervé</string>
+		</array>
+	</array>
+
+	<key>s13</key>
+	<array>
+		<string>Le garde s'énerve et ouvre la grille pour vous passer à tabacs</string>
+		<array>
+			<string>s15</string>
+			<string>s16</string>
+		</array>
+		<array>
+			<string>L'attaquer.</string>
+			<string>Se laissez faire.</string>
+		</array>
+		<array>
+			<string>jour</string>
+		</array>
+		<array>
+			<string>énervé</string>
+		</array>
+	</array>
+
+	<key>s14</key>
+	<array>
+		<string>Vous essayez de sympathiser avec le garde mais il n'est pas très coopératif et après quelque minutes de discussion, il s'éloigne et vous laisse seul. </string>
+		<array>
+			<string>s8</string>
+		</array>
+		<array>
+			<string>Attendre le soir.</string>
+		</array>
+		<array>
+			<string>jour</string>
+		</array>
+		<array>
+			<string>garde</string>
+		</array>
+	</array>
+
+	<key>s15</key>
+	<array>
+		<string>Alors qu'il passe la port de la cellule vous vous jetez sur lui et l'assommez. </string>
+		<array>
+			<string>s11</string>
+		</array>
+		<array>
+			<string>Sortir de la cellule.</string>
+		</array>
+		<array>
+			<string>jour</string>
+		</array>
+		<array>
+			<string>KO</string>
+		</array>
+	</array>
+
+	<key>s16</key>
+	<array>
+		<string>Vous être roué de coups et l'ors ce que vous reprenez conscience le garde est déjas parti.</string>
+		<array>
+			<string>s8</string>
+		</array>
+		<array>
+			<string>Attendre le soir.</string>
+		</array>
+		<array>
+			<string>jour</string>
+		</array>
+		<array>
+			<string>énervé</string>
+		</array>
+	</array>
+
+	<key>s17</key>
+	<array>
+		<string>Vous décidez de poser un piège et d'attendre le garde du couloir après avoir attiré son attention. Juste après avoir fait du bruit le garde passe la porte et trébuche sur votre corde tendue. Vous profitez de se moment pour l'assommer.</string>
+		<array>
+			<string>s19</string>
+		</array>
+		<array>
+			<string>Aller vers la sortie.</string>
+		</array>
+		<array>
+			<string>jour</string>
+		</array>
+		<array>
+			<string>énervé</string>
+		</array>
+	</array>
+
+	<key>s18</key>
+	<array>
+		<string>Vous décidez de passer discrètement dans les couloir jusqu'a la sortie de la prison. Sur le chemin vous apercevez un garde. Vous pourriez le contourner ou le mettre hors d'état de nuire. Que faite vous ?</string>
+		<array>
+			<string>s20</string>
+			<string>s21</string>
+		</array>
+		<array>
+			<string>Contourner.</string>
+			<string>L'attaquer par surprise.</string>
+		</array>
+		<array>
+			<string>jour</string>
+		</array>
+		<array>
+			<string>énervé</string>
+		</array>
+	</array>
+
+	<key>s19</key>
+	<array>
+		<string>Vous passez à coté de la salle des gardes ou ils stockent les objet précieux. Allez vous résister à la tentation d'allez y récupérer des objets précieux ?</string>
+		<array>
+			<string>s22</string>
+			<string>s23</string>
+		</array>
+		<array>
+			<string>Céder.</string>
+			<string>Résister.</string>
+		</array>
+		<array>
+			<string>nuit</string>
+		</array>
+		<array>
+			<string>narrateur</string>
+		</array>
+	</array>
+
+	<key>s20</key>
+	<array>
+		<string>Vous observez les rondes du garde. Après quelque rondes vous trouvez un moment ou passez discrètement. Tels un chat vous vous faufilez derrière des caisses et apercevez enfin la sortie.</string>
+		<array>
+			<string>s19</string>
+		</array>
+		<array>
+			<string>Aller vers la sortie.</string>
+		</array>
+		<array>
+			<string>nuit</string>
+		</array>
+		<array>
+			<string>garde</string>
+		</array>
+	</array>
+
+	<key>s21</key>
+	<array>
+		<string>Vous observez les rondes du garde. Après quelque rondes vous trouvez le moment propice et vous jetez sur le garde.Vous assommez avec un double drop kick et il tombe sur le sol assommé comme une planche. Vous vous approchez enfin de la sortie.</string>
+		<array>
+			<string>s19</string>
+		</array>
+		<array>
+			<string>Aller vers la sortie.</string>
+		</array>
+		<array>
+			<string>nuit</string>
+		</array>
+		<array>
+			<string>garde</string>
+		</array>
+	</array>
+
+	<key>s22</key>
+	<array>
+		<string>Vous n'arrivez pas à résister à la tentation et forcez la porte pour vous trouvez nez à nez avec tous les gardes de la prison. Votre envie de richesse vous passe vite et fuyez vers la sortie. Hélas ils vous rattrape et vous ramène en prison. Vous n'avez plus aucun chance de vous enfuir avant votre exécution</string>
+		<array>
+			<string>s6</string>
+		</array>
+		<array>
+			<string>Aller vers la sortie.</string>
+		</array>
+		<array>
+			<string>nuit</string>
+		</array>
+		<array>
+			<string>énervé</string>
+		</array>
+	</array>
+
+	<key>s23</key>
+	<array>
+		<string>Vous résistez à la tentation et passer à coté de la salle. Vous arrivez enfin aux portes de la prison. Elle sont ouverte !! Quel chance !! Vous vous précipitez et vous enfoncer dans la ville.</string>
+		<array>
+			<string>s24</string>
+		</array>
+		<array>
+			<string>Aller vers la sortie.</string>
+		</array>
+		<array>
+			<string>nuit</string>
+		</array>
+		<array>
+			<string>garde</string>
+		</array>
+	</array>
+
+	<key>s23</key>
+	<array>
+		<string>YOU WIN (chapitre 1).</string>
+		<array>
+			<string>s1</string>
+		</array>
+		<array>
+			<string>Recommencer ?</string>
+		</array>
+		<array>
+			<string>nuit</string>
+		</array>
+		<array>
+			<string>narrateur.</string>
 		</array>
 	</array>
 </dict>

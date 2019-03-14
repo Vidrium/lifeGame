@@ -89,7 +89,7 @@ class GameViewController: UIViewController {
         
         let s = plistData[currentSituation] as! NSArray
         let nextKeys = s[1] as! NSArray;
-        currentSituation = (nextKeys[0] as? String)!;
+        currentSituation = (nextKeys[1] as? String)!;
         
         displaySituation()
     }
@@ -99,7 +99,7 @@ class GameViewController: UIViewController {
         
         let s = plistData[currentSituation] as! NSArray
         let nextKeys = s[1] as! NSArray;
-        currentSituation = (nextKeys[0] as? String)!;
+        currentSituation = (nextKeys[2] as? String)!;
         
         displaySituation()
     }
@@ -108,7 +108,7 @@ class GameViewController: UIViewController {
         
         let s = plistData[currentSituation] as! NSArray
         let nextKeys = s[1] as! NSArray;
-        currentSituation = (nextKeys[0] as? String)!;
+        currentSituation = (nextKeys[3] as? String)!;
         
         displaySituation()
     }
