@@ -140,7 +140,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="back-jail-day" translatesAutoresizingMaskIntoConstraints="NO" id="8N3-l3-1sa">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="back-jail-day1" translatesAutoresizingMaskIntoConstraints="NO" id="8N3-l3-1sa">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
@@ -150,21 +150,17 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HdG-aV-6Wd">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="367"/>
                                         <subviews>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="if2-si-neA">
-                                                <rect key="frame" x="0.0" y="74" width="375" height="293"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="if2-si-neA">
+                                                <rect key="frame" x="0.0" y="50" width="360" height="317"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="25"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" smartQuotesType="yes"/>
                                             </textView>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstItem="if2-si-neA" firstAttribute="leading" secondItem="HdG-aV-6Wd" secondAttribute="leading" id="3Lq-d7-kgD"/>
-                                            <constraint firstItem="if2-si-neA" firstAttribute="top" secondItem="HdG-aV-6Wd" secondAttribute="top" id="JOf-fK-LJX"/>
-                                            <constraint firstAttribute="bottom" secondItem="if2-si-neA" secondAttribute="bottom" id="KDy-Fb-2MN"/>
-                                            <constraint firstAttribute="trailing" secondItem="if2-si-neA" secondAttribute="trailing" id="wf8-ZZ-EJG"/>
-                                        </constraints>
                                     </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="crb-BF-Om9">
                                         <rect key="frame" x="0.0" y="367" width="375" height="367"/>
@@ -185,7 +181,7 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A0s-AM-ZDY">
                                                         <rect key="frame" x="8" y="8" width="171.33333333333334" height="42.666666666666664"/>
                                                         <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
-                                                        <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="25"/>
+                                                        <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
                                                         <state key="normal" title="Button"/>
                                                         <connections>
                                                             <action selector="clickChoice1:" destination="Iyb-m0-m7Q" eventType="touchUpInside" id="It1-Hq-B2p"/>
@@ -193,7 +189,7 @@
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qL3-2b-7bl">
                                                         <rect key="frame" x="8" y="110.66666666666663" width="171.33333333333334" height="43"/>
-                                                        <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="25"/>
+                                                        <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
                                                         <state key="normal" title="Button"/>
                                                         <connections>
                                                             <action selector="clickChoice2:" destination="Iyb-m0-m7Q" eventType="touchUpInside" id="1Mk-JL-N4g"/>
@@ -201,7 +197,7 @@
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RkO-Tz-iAI">
                                                         <rect key="frame" x="8" y="213.66666666666663" width="171.33333333333334" height="42.666666666666686"/>
-                                                        <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="25"/>
+                                                        <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
                                                         <state key="normal" title="Button"/>
                                                         <connections>
                                                             <action selector="clickChoice3:" destination="Iyb-m0-m7Q" eventType="touchUpInside" id="8ep-aG-gsl"/>
@@ -209,7 +205,7 @@
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6zP-cL-PUy">
                                                         <rect key="frame" x="8" y="316.33333333333337" width="171.33333333333334" height="42.666666666666686"/>
-                                                        <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="25"/>
+                                                        <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
                                                         <state key="normal" title="Button"/>
                                                         <connections>
                                                             <action selector="clickChoice4:" destination="Iyb-m0-m7Q" eventType="touchUpInside" id="mgu-Ho-ole"/>
@@ -221,6 +217,11 @@
                                         </subviews>
                                     </stackView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="HdG-aV-6Wd" firstAttribute="leading" secondItem="xiV-mk-PpN" secondAttribute="leading" constant="10" id="aQu-O7-kNH"/>
+                                    <constraint firstAttribute="trailing" secondItem="HdG-aV-6Wd" secondAttribute="trailing" constant="15" id="auT-CM-Ssv"/>
+                                    <constraint firstItem="HdG-aV-6Wd" firstAttribute="top" secondItem="xiV-mk-PpN" secondAttribute="top" constant="50" id="cie-bx-qFG"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -267,7 +268,7 @@
     </scenes>
     <resources>
         <image name="back-accueil" width="526" height="936"/>
-        <image name="back-jail-day" width="750" height="1334"/>
+        <image name="back-jail-day1" width="750" height="1334"/>
         <image name="back-jail-night" width="750" height="1334"/>
         <image name="bard" width="452" height="689"/>
         <image name="chapeau" width="597" height="449"/>
