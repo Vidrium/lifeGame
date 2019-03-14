@@ -13,7 +13,7 @@
 		<array>
 			<string>du pain</string>
 			<string>du poisson</string>
-			<string>du poulet aux amendes</string>
+			<string>poulet aux amendes</string>
 		</array>
 		<array>
 			<string>jour</string>
@@ -80,8 +80,8 @@
 			<string>s8</string>
 		</array>
 		<array>
-			<string>Appeler le garde.</string>
-			<string>Attendre la nuit.</string>
+			<string>Appeler garde.</string>
+			<string>Attendre nuit.</string>
 		</array>
 		<array>
 			<string>jour</string>
@@ -117,9 +117,9 @@
 			<string>s14</string>
 		</array>
 		<array>
-			<string>Vous essayez de l'assomer.</string>
-			<string>Vous le provoquez.</string>
-			<string>Vous essayez de sympathisez</string>
+			<string>l'assomer.</string>
+			<string>le provoquez.</string>
+			<string>sympathisez</string>
 		</array>
 		<array>
 			<string>jour</string>
@@ -137,7 +137,7 @@
 			<string>s10</string>
 		</array>
 		<array>
-			<string>Plier les barreaux. </string>
+			<string>Plier barreaux. </string>
 			<string>Se resigner.</string>
 		</array>
 		<array>
@@ -155,7 +155,7 @@
 			<string>s11</string>
 		</array>
 		<array>
-			<string>Sortir de la cellule.</string>
+			<string>Sortir</string>
 		</array>
 		<array>
 			<string>jour</string>
@@ -261,7 +261,7 @@
 			<string>s11</string>
 		</array>
 		<array>
-			<string>Sortir de la cellule.</string>
+			<string>Sortir</string>
 		</array>
 		<array>
 			<string>jour</string>
@@ -295,7 +295,7 @@
 			<string>s19</string>
 		</array>
 		<array>
-			<string>Aller vers la sortie.</string>
+			<string>Avancer.</string>
 		</array>
 		<array>
 			<string>jour</string>
@@ -314,7 +314,7 @@
 		</array>
 		<array>
 			<string>Contourner.</string>
-			<string>L'attaquer par surprise.</string>
+			<string>L'attaquer.</string>
 		</array>
 		<array>
 			<string>jour</string>
@@ -350,7 +350,7 @@
 			<string>s19</string>
 		</array>
 		<array>
-			<string>Aller vers la sortie.</string>
+			<string>Avancer.</string>
 		</array>
 		<array>
 			<string>nuit</string>
@@ -367,7 +367,7 @@
 			<string>s19</string>
 		</array>
 		<array>
-			<string>Aller vers la sortie.</string>
+			<string>Avancer.</string>
 		</array>
 		<array>
 			<string>nuit</string>
@@ -384,7 +384,7 @@
 			<string>s6</string>
 		</array>
 		<array>
-			<string>Aller vers la sortie.</string>
+			<string>Avancer.</string>
 		</array>
 		<array>
 			<string>nuit</string>
@@ -401,7 +401,7 @@
 			<string>s24</string>
 		</array>
 		<array>
-			<string>Aller vers la sortie.</string>
+			<string>Avancer.</string>
 		</array>
 		<array>
 			<string>nuit</string>
